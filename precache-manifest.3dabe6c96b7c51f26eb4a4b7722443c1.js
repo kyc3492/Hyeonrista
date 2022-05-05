@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3cdb50598563f292b5ae",
+    "revision": "be132a71ccdfb84354dd",
     "url": "/Hyeonrista/static/css/main.4d75d764.chunk.css"
   },
   {
-    "revision": "3cdb50598563f292b5ae",
-    "url": "/Hyeonrista/static/js/main.3cdb5059.chunk.js"
+    "revision": "be132a71ccdfb84354dd",
+    "url": "/Hyeonrista/static/js/main.be132a71.chunk.js"
   },
   {
     "revision": "8139a818b7d886f0e518",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/Hyeonrista/static/media/cafe4.6071c11c.jpeg"
   },
   {
-    "revision": "fdf6c5b74e39ec878350acd6a95aff19",
-    "url": "/Hyeonrista/static/media/cafe1.fdf6c5b7.png"
-  },
-  {
     "revision": "34910b1a92bf79bd4661691ad51bf12d",
     "url": "/Hyeonrista/static/media/cafe2.34910b1a.jpeg"
+  },
+  {
+    "revision": "fdf6c5b74e39ec878350acd6a95aff19",
+    "url": "/Hyeonrista/static/media/cafe1.fdf6c5b7.png"
   },
   {
     "revision": "0c0a47e2e29f06a31c3809ead0c74cbc",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/Hyeonrista/static/media/body_background.b8803abf.jpg"
   },
   {
-    "revision": "42fd3a0772aab760f97b35dcb3fc37c3",
+    "revision": "dffcef15d00933ad5a0acb2aa0c8433f",
     "url": "/Hyeonrista/index.html"
   }
 ];

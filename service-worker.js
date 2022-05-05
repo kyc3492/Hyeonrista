@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Hyeonrista/precache-manifest.b80b0bc8fc1c39f484a589b9feb312a0.js"
+  "/Hyeonrista/precache-manifest.3dabe6c96b7c51f26eb4a4b7722443c1.js"
 );
 
 workbox.clientsClaim();
