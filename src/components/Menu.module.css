@@ -1,0 +1,68 @@
+.cover {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.cafe_title {
+  grid-row: 2;
+  grid-column: 1;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  z-index: 2;
+}
+
+.cafe_detail {
+  grid-row: 3;
+  grid-column: 1;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  z-index: 2;
+}
+
+.GoToDetail {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 40px;
+  grid-row: 4;
+  grid-column: 1;
+  z-index: 2;
+  padding: 10px 30px;
+  border-radius: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  transition: 0.25s;
+  background-color: rgba(85, 85, 85, 0.5);
+  color: white;
+}
+
+.contents {
+  position: relative;
+  background-size: 100%;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 50px 50px;
+}
+
+.cafe {
+  background-size: 100%;
+  width: 100%;
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 70px 50px 80px;
+}

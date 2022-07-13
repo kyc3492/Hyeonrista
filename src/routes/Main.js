@@ -10,8 +10,9 @@ function Main() {
 
   const [cafes, setCafes] = useState([]);
   const getCafes = async () => {
-    const json = await (await fetch("http://localhost:8001/cafes")).json();
-    console.log(json.cafe_list);
+    //const json = await (await fetch("http://13.125.29.181:8001/cafes")).json();
+    const json = await (await fetch("/cafes")).json();
+    //console.log(json.cafe_list);
     setCafes(json.cafe_list);
   };
 
